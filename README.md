@@ -1,5 +1,5 @@
-[![Latest Stable Version](https://poser.pugx.org/yii2module/yii2-lang/v/stable.png)](https://packagist.org/packages/yii2module/yii2-lang)
-[![Total Downloads](https://poser.pugx.org/yii2module/yii2-lang/downloads.png)](https://packagist.org/packages/yii2module/yii2-lang)
+[![Latest Stable Version](https://poser.pugx.org/yii2bundle/yii2-lang/v/stable.png)](https://packagist.org/packages/yii2bundle/yii2-lang)
+[![Total Downloads](https://poser.pugx.org/yii2bundle/yii2-lang/downloads.png)](https://packagist.org/packages/yii2bundle/yii2-lang)
 
 ## Описание
 
