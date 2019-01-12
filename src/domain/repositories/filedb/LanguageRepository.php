@@ -7,12 +7,12 @@ use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
 use yii2lab\domain\BaseEntity;
 use yii2lab\domain\data\Query;
-use yii2lab\domain\repositories\ActiveFiledbRepository;
+use yii2lab\extension\filedb\repositories\base\BaseActiveFiledbRepository;
 use yii2module\lang\domain\entities\LanguageEntity;
 use yii2module\lang\domain\enums\LanguageEnum;
 use yii2module\lang\domain\interfaces\repositories\LanguageInterface;
 
-class LanguageRepository extends ActiveFiledbRepository implements LanguageInterface {
+class LanguageRepository extends BaseActiveFiledbRepository implements LanguageInterface {
 	
 	public function tableName()
 	{
