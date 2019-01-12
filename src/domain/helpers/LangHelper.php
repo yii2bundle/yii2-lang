@@ -47,17 +47,6 @@ class LangHelper {
 		return $message;
 	}
 	
-	/**
-	 * @param $lang
-	 *
-	 * @return mixed
-	 * @deprecated moved to yii2module\lang\domain\enums\LanguageEnum::code
-	 */
-	public static function locale2lang($lang) {
-		$langArr = explode('-', $lang);
-		return $langArr[0];
-	}
-	
 	private static function getBundleTypePrefix($bundleName) {
 		if(DomainHelper::has($bundleName)) {
 			return self::PREFIX_DOMAIN;
