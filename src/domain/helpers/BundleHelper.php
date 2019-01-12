@@ -26,8 +26,7 @@ class BundleHelper {
 		$items = explode('/', $category);
 		if(count($items) > 1) {
 			$bundleName = $items[0];
-			// todo: @deprecated заменить this на реальные имена
-			if($bundleName == 'this' || empty($bundleName)) {
+			if(empty($bundleName)) {
 				$bundleName = Yii::$app->controller->module->id;
 			}
 			// todo: костыль

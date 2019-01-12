@@ -5,7 +5,7 @@ namespace yii2module\lang\domain\services;
 use Yii;
 use yii\web\NotFoundHttpException;
 use yii2lab\domain\interfaces\services\ReadInterface;
-use yii2lab\domain\services\ActiveBaseService;
+use yii2lab\domain\services\base\BaseActiveService;
 use yii2module\lang\domain\entities\LanguageEntity;
 use yii2module\lang\domain\interfaces\services\LanguageInterface;
 
@@ -16,7 +16,7 @@ use yii2module\lang\domain\interfaces\services\LanguageInterface;
  *
  * @property \yii2module\lang\domain\interfaces\repositories\LanguageInterface $repository
  */
-class LanguageService extends ActiveBaseService implements LanguageInterface, ReadInterface {
+class LanguageService extends BaseActiveService implements LanguageInterface, ReadInterface {
 	
 	public function initCurrent() {
 		if(APP == CONSOLE) {
