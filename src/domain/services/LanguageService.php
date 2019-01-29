@@ -3,6 +3,7 @@
 namespace yii2module\lang\domain\services;
 
 use Yii;
+use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
 use yii2lab\domain\interfaces\services\ReadInterface;
 use yii2lab\domain\services\base\BaseActiveService;
@@ -17,7 +18,9 @@ use yii2module\lang\domain\interfaces\services\LanguageInterface;
  * @property \yii2module\lang\domain\interfaces\repositories\LanguageInterface $repository
  */
 class LanguageService extends BaseActiveService implements LanguageInterface, ReadInterface {
-	
+
+    public $aliases = [];
+
 	public function initCurrent() {
 		if(APP == CONSOLE) {
 			return;
@@ -45,6 +48,7 @@ class LanguageService extends BaseActiveService implements LanguageInterface, Re
 	}
 	
 	public function oneByLocale($locale) {
+        $locale = ArrayHelper::getValue($this->aliases, $locale, $locale);
 		return $this->repository->oneByLocale($locale);
 	}
 
@@ -54,7 +58,7 @@ class LanguageService extends BaseActiveService implements LanguageInterface, Re
             return null;
         }
         try {
-            return $this->repository->oneByLocale([$languageFromStore]);
+            return $this->oneByLocale([$languageFromStore]);
         } catch(NotFoundHttpException $e) {
             return null;
         }
@@ -63,7 +67,7 @@ class LanguageService extends BaseActiveService implements LanguageInterface, Re
     private function setLanguageFromClient() {
         $clientLanguages = Yii::$app->getRequest()->getAcceptableLanguages();
         try {
-            return $this->repository->oneByLocale($clientLanguages);
+            return $this->oneByLocale($clientLanguages);
         } catch(NotFoundHttpException $e) {
             return null;
         }
