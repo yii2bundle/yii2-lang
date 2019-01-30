@@ -19,7 +19,9 @@ use yii2module\lang\domain\interfaces\services\LanguageInterface;
  */
 class LanguageService extends BaseActiveService implements LanguageInterface, ReadInterface {
 
-    public $aliases = [];
+    public $aliases = [
+        'kk' => 'kz',
+    ];
 
 	public function initCurrent() {
 		if(APP == CONSOLE) {
