@@ -4,7 +4,7 @@ namespace tests\functional\services;
 
 use yii2lab\test\Test\Unit;
 use Yii;
-use yii2lab\domain\data\Query;
+use yii2rails\domain\data\Query;
 use yii2module\lang\domain\enums\LanguageEnum;
 
 class LanguageTest extends Unit

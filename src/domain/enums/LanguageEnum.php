@@ -2,7 +2,7 @@
 
 namespace yii2module\lang\domain\enums;
 
-use yii2lab\extension\enum\base\BaseEnum;
+use yii2rails\extension\enum\base\BaseEnum;
 
 class LanguageEnum extends BaseEnum {
 	

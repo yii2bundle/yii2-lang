@@ -2,8 +2,8 @@
 
 namespace yii2module\lang\domain\helpers;
 
-use yii2lab\domain\helpers\DomainHelper;
-use yii2lab\extension\common\helpers\ModuleHelper;
+use yii2rails\domain\helpers\DomainHelper;
+use yii2rails\extension\common\helpers\ModuleHelper;
 
 class LangHelper {
 	

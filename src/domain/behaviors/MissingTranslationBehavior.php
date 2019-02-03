@@ -7,10 +7,10 @@ use yii\base\Event;
 use yii\helpers\Inflector;
 use yii\i18n\MessageSource;
 use yii\i18n\MissingTranslationEvent;
-use yii2lab\domain\enums\EventEnum;
-use yii2lab\domain\events\MethodEvent;
-use yii2lab\domain\repositories\BaseRepository;
-use yii2lab\domain\services\base\BaseService;
+use yii2rails\domain\enums\EventEnum;
+use yii2rails\domain\events\MethodEvent;
+use yii2rails\domain\repositories\BaseRepository;
+use yii2rails\domain\services\base\BaseService;
 
 class MissingTranslationBehavior extends Behavior {
 

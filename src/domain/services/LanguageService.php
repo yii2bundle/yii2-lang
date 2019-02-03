@@ -5,8 +5,8 @@ namespace yii2module\lang\domain\services;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
-use yii2lab\domain\interfaces\services\ReadInterface;
-use yii2lab\domain\services\base\BaseActiveService;
+use yii2rails\domain\interfaces\services\ReadInterface;
+use yii2rails\domain\services\base\BaseActiveService;
 use yii2module\lang\domain\entities\LanguageEntity;
 use yii2module\lang\domain\interfaces\services\LanguageInterface;
 

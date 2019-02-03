@@ -3,7 +3,7 @@
 namespace yii2module\lang\domain\repositories\header;
 
 use Yii;
-use yii2lab\domain\repositories\BaseRepository;
+use yii2rails\domain\repositories\BaseRepository;
 use yii2module\lang\domain\interfaces\repositories\StoreInterface;
 
 class StoreRepository extends BaseRepository implements StoreInterface {

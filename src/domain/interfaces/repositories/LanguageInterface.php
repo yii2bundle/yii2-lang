@@ -4,7 +4,7 @@ namespace yii2module\lang\domain\interfaces\repositories;
 
 use yii\web\NotFoundHttpException;
 use yii2module\lang\domain\entities\LanguageEntity;
-use yii2lab\domain\interfaces\repositories\ReadInterface;
+use yii2rails\domain\interfaces\repositories\ReadInterface;
 
 interface LanguageInterface extends ReadInterface {
 	

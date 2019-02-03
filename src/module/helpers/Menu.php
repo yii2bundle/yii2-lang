@@ -2,7 +2,7 @@
 
 namespace yii2module\lang\module\helpers;
 
-use yii2lab\extension\menu\interfaces\MenuInterface;
+use yii2rails\extension\menu\interfaces\MenuInterface;
 use yii2module\lang\domain\enums\LangPermissionEnum;
 
 class Menu implements MenuInterface {
