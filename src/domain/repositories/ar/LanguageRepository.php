@@ -28,7 +28,7 @@ class LanguageRepository extends BaseActiveArRepository implements LanguageInter
 
     public function tableName()
     {
-        return TableHelper::getGlobalName('language');
+        return 'language';
     }
 	
 	public function forgeEntity($data, $class = null) {
