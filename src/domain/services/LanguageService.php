@@ -5,6 +5,7 @@ namespace yii2module\lang\domain\services;
 use Yii;
 use yii\helpers\ArrayHelper;
 use yii\web\NotFoundHttpException;
+use yii2rails\domain\data\Query;
 use yii2rails\domain\interfaces\services\ReadInterface;
 use yii2rails\domain\services\base\BaseActiveService;
 use yii2module\lang\domain\entities\LanguageEntity;
@@ -48,7 +49,13 @@ class LanguageService extends BaseActiveService implements LanguageInterface, Re
 	public function saveCurrent($language) {
 		return $this->repository->saveCurrent($language);
 	}
-	
+
+    public function oneByCode(string $code, Query $query = null) {
+        $query = new Query;
+        $query->andWhere(['code' => $code]);
+        return $this->one($query);
+    }
+
 	public function oneByLocale($locale) {
         $locale = ArrayHelper::getValue($this->aliases, $locale, $locale);
 		return $this->repository->oneByLocale($locale);
