@@ -27,7 +27,7 @@ class Domain extends \yii2rails\domain\Domain {
 				'store' => $storeDriver,
 			],
 			'services' => [
-				'language' => [],
+				'language',
 			],
 		];
 	}
