@@ -9,7 +9,9 @@ use yii2rails\domain\interfaces\services\ReadInterface;
 use yii2module\lang\domain\entities\LanguageEntity;
 
 interface LanguageInterface extends ReadInterface {
-	
+
+    public function initCurrent();
+
 	/**
 	 * @return LanguageEntity
 	 * @throws NotFoundHttpException

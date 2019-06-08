@@ -10,11 +10,9 @@ class Language extends Component
 
 	public function init()
 	{
-		DomainHelper::forgeDomains([
-			'lang' => 'yii2module\lang\domain\Domain',
-		]);
-		\App::$domain->lang->language->initCurrent();
-		parent::init();
+		if(\App::$domain->has('lang')) {
+            \App::$domain->lang->language->initCurrent();
+        }
 	}
 
 }
