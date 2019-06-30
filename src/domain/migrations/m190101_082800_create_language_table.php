@@ -9,7 +9,7 @@ use yii2lab\db\domain\db\MigrationCreateTable as Migration;
  */
 class m190101_082800_create_language_table extends Migration {
 
-	public $table = '{{%language}}';
+	public $table = 'language';
 
 	/**
 	 * @inheritdoc
