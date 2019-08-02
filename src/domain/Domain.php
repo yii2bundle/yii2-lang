@@ -23,7 +23,7 @@ class Domain extends \yii2rails\domain\Domain {
 		}
 		return [
 			'repositories' => [
-				'language' => Driver::FILEDB,
+				'language' => Driver::ACTIVE_RECORD,
 				'store' => $storeDriver,
 			],
 			'services' => [
