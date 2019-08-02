@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\module;
+namespace yii2bundle\lang\module;
 
 use yii\base\Module as YiiModule;
 

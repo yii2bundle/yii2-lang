@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\behaviors;
+namespace yii2bundle\lang\domain\behaviors;
 
 use yii\base\Behavior;
 use yii\base\Event;

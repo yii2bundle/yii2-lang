@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\helpers;
+namespace yii2bundle\lang\domain\helpers;
 
 use yii2rails\domain\helpers\DomainHelper;
 use yii2rails\extension\common\helpers\ModuleHelper;
@@ -11,7 +11,7 @@ class LangHelper {
 	const PREFIX_DOMAIN = 'domain:';
 	
 	public static function normalizeTranslation($config) {
-		$config['class'] = 'yii2module\lang\domain\i18n\PhpMessageSource';
+		$config['class'] = 'yii2bundle\lang\domain\i18n\PhpMessageSource';
 		return $config;
 	}
 	

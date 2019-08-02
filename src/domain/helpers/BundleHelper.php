@@ -1,12 +1,12 @@
 <?php
 
-namespace yii2module\lang\domain\helpers;
+namespace yii2bundle\lang\domain\helpers;
 
 use Yii;
 use yii2rails\domain\helpers\DomainHelper;
 use yii2rails\extension\common\helpers\ModuleHelper;
 use yii2rails\extension\yii\helpers\FileHelper;
-use yii2module\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\enums\LanguageEnum;
 
 class BundleHelper {
 	
@@ -80,7 +80,7 @@ class BundleHelper {
 	
 	private static function generateConfig($basePath, $fileMap) {
 		$config = [
-			'class' => 'yii2module\lang\domain\i18n\PhpMessageSource',
+			'class' => 'yii2bundle\lang\domain\i18n\PhpMessageSource',
 			'sourceLanguage' => LanguageEnum::SOURCE,
 			'basePath' => $basePath,
 		];

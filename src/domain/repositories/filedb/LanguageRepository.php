@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\repositories\filedb;
+namespace yii2bundle\lang\domain\repositories\filedb;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -8,9 +8,9 @@ use yii\web\NotFoundHttpException;
 use yii2rails\domain\BaseEntity;
 use yii2rails\domain\data\Query;
 use yii2rails\extension\filedb\repositories\base\BaseActiveFiledbRepository;
-use yii2module\lang\domain\entities\LanguageEntity;
-use yii2module\lang\domain\enums\LanguageEnum;
-use yii2module\lang\domain\interfaces\repositories\LanguageInterface;
+use yii2bundle\lang\domain\entities\LanguageEntity;
+use yii2bundle\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\interfaces\repositories\LanguageInterface;
 
 class LanguageRepository extends BaseActiveFiledbRepository implements LanguageInterface {
 	

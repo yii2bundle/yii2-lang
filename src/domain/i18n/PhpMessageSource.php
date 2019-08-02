@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\lang\domain\i18n;
+namespace yii2bundle\lang\domain\i18n;
 
 use yii\i18n\MessageSource;
-use yii2module\lang\domain\behaviors\MissingTranslationBehavior;
-use yii2module\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\behaviors\MissingTranslationBehavior;
+use yii2bundle\lang\domain\enums\LanguageEnum;
 
 class PhpMessageSource extends \yii\i18n\PhpMessageSource
 {

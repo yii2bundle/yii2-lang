@@ -1,10 +1,10 @@
 <?php
 
-namespace yii2module\lang\domain\repositories\header;
+namespace yii2bundle\lang\domain\repositories\header;
 
 use Yii;
 use yii2rails\domain\repositories\BaseRepository;
-use yii2module\lang\domain\interfaces\repositories\StoreInterface;
+use yii2bundle\lang\domain\interfaces\repositories\StoreInterface;
 
 class StoreRepository extends BaseRepository implements StoreInterface {
 	

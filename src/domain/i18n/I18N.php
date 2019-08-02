@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2module\lang\domain\i18n;
+namespace yii2bundle\lang\domain\i18n;
 
-use yii2module\lang\domain\helpers\BundleHelper;
-use yii2module\lang\domain\helpers\LangHelper;
+use yii2bundle\lang\domain\helpers\BundleHelper;
+use yii2bundle\lang\domain\helpers\LangHelper;
 
 class I18N extends \yii\i18n\I18N
 {

@@ -1,11 +1,11 @@
 <?php
-namespace yii2module\lang\module\controllers;
+namespace yii2bundle\lang\module\controllers;
 
 use Yii;
 use yii\data\ArrayDataProvider;
 use yii\web\Controller;
 use yii2rails\extension\web\helpers\Behavior;
-use yii2module\lang\domain\enums\LangPermissionEnum;
+use yii2bundle\lang\domain\enums\LangPermissionEnum;
 
 class ManageController extends Controller
 {

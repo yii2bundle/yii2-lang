@@ -12,8 +12,6 @@
 	"minimum-stability": "dev",
 	"autoload": {
 		"psr-4": {
-			"yii2module\\lang\\": "src",
-			"yii2module\\lang\\tests\\": "tests",
 			"yii2bundle\\lang\\": "src",
 			"yii2bundle\\lang\\tests\\": "tests"
 		}

@@ -1,6 +1,6 @@
 <?php
 
-use yii2module\lang\widgets\LangSelector;
+use yii2bundle\lang\widgets\LangSelector;
 
 ?>
 

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\repositories\ar;
+namespace yii2bundle\lang\domain\repositories\ar;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -9,16 +9,16 @@ use yii2lab\db\domain\helpers\TableHelper;
 use yii2rails\domain\BaseEntity;
 use yii2rails\domain\data\Query;
 use yii2rails\extension\activeRecord\repositories\base\BaseActiveArRepository;
-use yii2module\lang\domain\entities\LanguageEntity;
-use yii2module\lang\domain\enums\LanguageEnum;
-use yii2module\lang\domain\interfaces\repositories\LanguageInterface;
+use yii2bundle\lang\domain\entities\LanguageEntity;
+use yii2bundle\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\interfaces\repositories\LanguageInterface;
 
 /**
  * Class NewsRepository
  *
  * @package domain\news\v1\repositories\ar
  *
- * @property-read \yii2module\lang\domain\Domain $domain
+ * @property-read \yii2bundle\lang\domain\Domain $domain
  */
 class LanguageRepository extends BaseActiveArRepository implements LanguageInterface
 {

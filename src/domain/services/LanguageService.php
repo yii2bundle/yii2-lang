@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\services;
+namespace yii2bundle\lang\domain\services;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -8,15 +8,15 @@ use yii\web\NotFoundHttpException;
 use yii2rails\domain\data\Query;
 use yii2rails\domain\interfaces\services\ReadInterface;
 use yii2rails\domain\services\base\BaseActiveService;
-use yii2module\lang\domain\entities\LanguageEntity;
-use yii2module\lang\domain\interfaces\services\LanguageInterface;
+use yii2bundle\lang\domain\entities\LanguageEntity;
+use yii2bundle\lang\domain\interfaces\services\LanguageInterface;
 
 /**
  * Class LanguageService
  *
- * @package yii2module\lang\domain\services
+ * @package yii2bundle\lang\domain\services
  *
- * @property \yii2module\lang\domain\interfaces\repositories\LanguageInterface $repository
+ * @property \yii2bundle\lang\domain\interfaces\repositories\LanguageInterface $repository
  */
 class LanguageService extends BaseActiveService implements LanguageInterface, ReadInterface {
 

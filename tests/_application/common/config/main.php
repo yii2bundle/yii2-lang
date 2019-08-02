@@ -2,13 +2,13 @@
 
 use yii\helpers\ArrayHelper;
 use yii2lab\test\helpers\TestHelper;
-use yii2module\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\enums\LanguageEnum;
 
 $config = [
 	'language' => LanguageEnum::RU, // current Language
 	'bootstrap' => ['log', 'language', 'queue'],
 	'components' => [
-		'language' => 'yii2module\lang\domain\components\Language',
+		'language' => 'yii2bundle\lang\domain\components\Language',
 	],
 ];
 

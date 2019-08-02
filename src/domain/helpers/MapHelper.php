@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\helpers;
+namespace yii2bundle\lang\domain\helpers;
 
 use Yii;
 use yii2rails\extension\yii\helpers\FileHelper;

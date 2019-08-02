@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\widgets;
+namespace yii2bundle\lang\widgets;
 
 use yii\web\AssetBundle;
 

@@ -1,13 +1,13 @@
 <?php
 
-namespace yii2module\lang\domain\entities;
+namespace yii2bundle\lang\domain\entities;
 
 use yii2rails\domain\BaseEntity;
 
 /**
  * Class LanguageEntity
  *
- * @package yii2module\lang\domain\entities
+ * @package yii2bundle\lang\domain\entities
  *
  * @property string $code
  * @property string $name

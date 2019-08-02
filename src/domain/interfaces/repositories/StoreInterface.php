@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\interfaces\repositories;
+namespace yii2bundle\lang\domain\interfaces\repositories;
 
 interface StoreInterface {
 	

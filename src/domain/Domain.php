@@ -1,15 +1,15 @@
 <?php
 
-namespace yii2module\lang\domain;
+namespace yii2bundle\lang\domain;
 
 use yii2rails\domain\enums\Driver;
 
 /**
  * Class Domain
  * 
- * @package yii2module\lang\domain
- * @property-read \yii2module\lang\domain\interfaces\services\LanguageInterface $language
- * @property-read \yii2module\lang\domain\interfaces\repositories\RepositoriesInterface $repositories
+ * @package yii2bundle\lang\domain
+ * @property-read \yii2bundle\lang\domain\interfaces\services\LanguageInterface $language
+ * @property-read \yii2bundle\lang\domain\interfaces\repositories\RepositoriesInterface $repositories
  */
 class Domain extends \yii2rails\domain\Domain {
 	

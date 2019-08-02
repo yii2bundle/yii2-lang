@@ -1,9 +1,9 @@
 <?php
 
-namespace yii2module\lang\module\helpers;
+namespace yii2bundle\lang\module\helpers;
 
 use yii2rails\extension\menu\interfaces\MenuInterface;
-use yii2module\lang\domain\enums\LangPermissionEnum;
+use yii2bundle\lang\domain\enums\LangPermissionEnum;
 
 class Menu implements MenuInterface {
 	

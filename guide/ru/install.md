@@ -10,7 +10,7 @@ composer require yii2module/yii2-lang
 Объявляем common/config/main:
 
 ```php
-use yii2module\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\enums\LanguageEnum;
 
 return [
     ...
@@ -21,12 +21,12 @@ return [
 	...
 	'components' => [
         ...
-	    'language' => 'yii2module\lang\domain\components\Language',
+	    'language' => 'yii2bundle\lang\domain\components\Language',
 	    'i18n' => [
-			'class' => 'yii2module\lang\domain\i18n\I18N',
+			'class' => 'yii2bundle\lang\domain\i18n\I18N',
 			'translations' => [
 				'*' => [
-					'class' => 'yii2module\lang\domain\i18n\PhpMessageSource',
+					'class' => 'yii2bundle\lang\domain\i18n\PhpMessageSource',
 					'basePath' => '@common/messages',
 					'on missingTranslation' => ['yii2module\lang\domain\handlers\TranslationEventHandler', 'handleMissingTranslation'],
 				],

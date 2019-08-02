@@ -1,11 +1,11 @@
 <?php
 
-namespace yii2module\lang\domain\repositories\cookie;
+namespace yii2bundle\lang\domain\repositories\cookie;
 
 use Yii;
 use yii2rails\domain\repositories\BaseRepository;
 use yii\web\Cookie as YiiCookie;
-use yii2module\lang\domain\interfaces\repositories\StoreInterface;
+use yii2bundle\lang\domain\interfaces\repositories\StoreInterface;
 
 class StoreRepository extends BaseRepository implements StoreInterface {
 	

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\repositories\disc;
+namespace yii2bundle\lang\domain\repositories\disc;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -8,9 +8,9 @@ use yii\web\NotFoundHttpException;
 use yii2rails\domain\BaseEntity;
 use yii2rails\domain\data\Query;
 use yii2rails\extension\arrayTools\repositories\base\BaseActiveDiscRepository;
-use yii2module\lang\domain\entities\LanguageEntity;
-use yii2module\lang\domain\enums\LanguageEnum;
-use yii2module\lang\domain\interfaces\repositories\LanguageInterface;
+use yii2bundle\lang\domain\entities\LanguageEntity;
+use yii2bundle\lang\domain\enums\LanguageEnum;
+use yii2bundle\lang\domain\interfaces\repositories\LanguageInterface;
 
 class LanguageRepository extends BaseActiveDiscRepository implements LanguageInterface {
 	

@@ -1,6 +1,6 @@
 <?php
 
-namespace yii2module\lang\domain\components;
+namespace yii2bundle\lang\domain\components;
 
 use yii\base\Component;
 use yii2rails\domain\helpers\DomainHelper;
