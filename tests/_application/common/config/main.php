@@ -1,7 +1,7 @@
 <?php
 
 use yii\helpers\ArrayHelper;
-use yii2lab\test\helpers\TestHelper;
+use yii2tool\test\helpers\TestHelper;
 use yii2bundle\lang\domain\enums\LanguageEnum;
 
 $config = [

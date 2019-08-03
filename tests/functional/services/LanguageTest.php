@@ -2,7 +2,7 @@
 
 namespace tests\functional\services;
 
-use yii2lab\test\Test\Unit;
+use yii2tool\test\Test\Unit;
 use Yii;
 use yii2rails\domain\data\Query;
 use yii2bundle\lang\domain\enums\LanguageEnum;

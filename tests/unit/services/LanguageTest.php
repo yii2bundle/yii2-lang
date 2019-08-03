@@ -2,7 +2,7 @@
 
 namespace tests\unit\services;
 
-use yii2lab\test\Test\Unit;
+use yii2tool\test\Test\Unit;
 use Yii;
 
 class LanguageTest extends Unit
